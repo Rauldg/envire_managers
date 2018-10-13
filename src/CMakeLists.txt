@@ -1,4 +1,5 @@
 set(SOURCES 
+	src/EnvireHeightMapLoader.cpp
 	src/EnvireJointManager.cpp
 	src/EnvireMotorManager.cpp
 	src/EnvireNodeManager.cpp
@@ -7,6 +8,7 @@ set(SOURCES
 )
 
 set(HEADERS
+	src/EnvireHeightMapLoader.hpp
 	src/EnvireJointManager.hpp
 	src/EnvireMotorManager.hpp
 	src/EnvireNodeManager.hpp
